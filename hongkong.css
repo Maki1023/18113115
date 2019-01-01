@@ -1,0 +1,93 @@
+@charset "utf-8";
+h1 {
+	padding-left: 50px;
+	color: #FFFFFF;
+	font-family: "微軟正黑體", "新細明體";
+	font-size: 23px;
+	line-height: 40px;
+	background-image: url(images/h1banner.png);
+	background-repeat: no-repeat;
+}
+h2 {
+	padding-left: 5px;
+	color: #571636;
+	line-height: 100%;
+	border-left: 5px solid #8E2659;
+}
+p {
+	padding-right: 15px;
+	padding-left: 15px;
+	bottom: 5px;
+	font-family: "微軟正黑體", "新細明體";
+	line-height: 150%;
+}
+.poem {
+	padding-left: 30px;
+	color: #7d0000;
+	font-family: "新細明體";
+	font-style: italic;
+	font-weight: bold;
+	background-image: url(images/quotation.fw.png);
+	background-repeat: no-repeat;
+}
+.photoframe {
+	width: 400px;
+	text-align: right;
+	font-size: 24px;
+	-webkit-box-shadow: 2px 2px 2px #CCCCCC;
+	box-shadow: 2px 2px 2px #CCCCCC;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-bottom: 1px solid #CCCCCC;
+	border-radius: 5px;
+}
+a:link {
+	color: #0066cc;
+	text-decoration: none;
+}
+a:visited {
+	color: #494949;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+#writer {
+	height: 84px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	background-color: #F5F5F5;
+	color: #666666;
+}
+#writer img {
+	margin-right: 10px;
+	float: left;
+	-webkit-box-shadow: 2px 2px 2px #000000;
+	box-shadow: 2px 2px 2px #000000;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+
+
+}
+#writer p {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	float: left;
+	line-height: 43px;
+}
+#writer p strong {
+	color: #ffffff;
+	background-color: #666666;
+}
